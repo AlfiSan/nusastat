@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NusaStat — Portal Statistik Nasional Indonesia: penduduk, ekonomi, ketenagakerjaan, dan harga, lengkap dengan sumber dan tahunnya.">
+  <title>NusaStat — Portal Statistik Nasional Indonesia</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="NusaStat — beranda"><strong>NusaStat</strong><span>Portal Statistik Nasional</span></a>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <a href="#/" data-route="/">Beranda</a>
+        <a href="#/ekonomi" data-route="/ekonomi">Ekonomi</a>
+        <a href="#/penduduk" data-route="/penduduk">Penduduk</a>
+        <a href="#/tenaga-kerja" data-route="/tenaga-kerja">Tenaga Kerja</a>
+        <a href="#/harga" data-route="/harga">Harga</a>
+        <a href="#/daerah" data-route="/daerah">Daerah</a>
+        <a href="#/data" data-route="/data">Katalog Data</a>
+        <a href="#/tentang" data-route="/tentang">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite">
+    <noscript>
+      <section class="panel">
+        <h1>NusaStat membutuhkan JavaScript</h1>
+        <p>Portal ini menampilkan grafik dan tabel interaktif dari data yang
+        tersimpan di berkasnya sendiri. Aktifkan JavaScript untuk melihat
+        seluruh isi situs.</p>
+      </section>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong>NusaStat</strong> — Portal Statistik Nasional Indonesia (percontohan).</p>
+      <p>Data: Badan Pusat Statistik (BPS), Bank Dunia, ILO. Setiap angka
+      menampilkan sumber dan tahunnya. Data dapat digunakan ulang dengan
+      menyebut sumber.</p>
+      <p><a href="#/tentang">Tentang &amp; metodologi</a> · <a href="#/data">Katalog data (CSV)</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
